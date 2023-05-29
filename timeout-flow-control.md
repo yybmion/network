@@ -119,6 +119,8 @@ ___
 
 ### FLOW CONTROL
 
+(Receiver based)
+
 ![image](https://github.com/yybmion/network/assets/113106136/b75a1802-df0f-4a79-bf2d-a86162da994e)
 
 SENDER은 RECEIVER의 상황을 알지 못한다. 
