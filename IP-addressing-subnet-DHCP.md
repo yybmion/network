@@ -212,6 +212,22 @@ host는 잠도 자므로 네트워크를 사용하지 않는 경우도 있다. �
 
 ![image](https://github.com/yybmion/network/assets/113106136/654c1791-1687-49cc-9186-28b34d047afc)
 
+___
+
+![image](https://github.com/yybmion/network/assets/113106136/5abab593-cf77-4431-a41e-e09d204cc697)
+
+1. client는 아직 ip address가 없는 상태 , 그리고 ip address를 dynamic하게 부여하는 DHCP서버가 있다.근데 이 서버가 고장나면 IP ADDRESS를 부여할 방법이 없으니 백업 DHCP 서버를 여러개 둔다.
+그리고 CLINET는 DHCP DISCOVER(DHCP 서버 찾기)을 BROADCAST하게 보낸다.
+2. 다른 HOST들은 응답하지 않고 SERVER들이 자신이 DHCP 서버로서 IP ADDRESS를 부여할 수 있다고 OFFER을 보낸다. 이또한 BROADCAST. 다른 서버들도 똑같이 보낸다. 다른 HOST는 무시. CLIENT는 2개의 OFFER을 받음
+3. 그럼 CLIENT는 여러개의 OFFER중에 하나를 골라 REQUEST를 보내고 그 중 고른 서버에게만 전달된다.
+4. 그 서버에서 ACK을 날리면은 CLIENT는 부여된 IP ADDRESS 사용 가능
+
+___
+
+DHCP RELAY??
+하나의 DHCP 서버를 가지고 여러개의 SUBNET을 관리할 수 있는 것.
+![image](https://github.com/yybmion/network/assets/113106136/11680017-4c77-4d5e-9ae2-2a456d281707)
+
 
 
 
