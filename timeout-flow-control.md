@@ -40,7 +40,9 @@ Safety margin
 sample RTT - estimated RTT 이 값이 크면 변동폭이 크다는 것이다.
 
 ![image](https://github.com/yybmion/network/assets/113106136/f11ae556-c5e9-48ed-ad10-361e9be46920)
+이때의 TimeoutInterval이 Expiraion 측정에 이용된다.
 
+따라서 송신자는 이러한 방식으로 sampleRTT와 EstimatedRTT 사이의 간극을 좁혀준다.
 ___
 
 ### TCP RELIABLE DATA TRANSFER
