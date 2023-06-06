@@ -82,7 +82,8 @@ ___
 이것도 문제가 있다. 그림을 보면 seq=100이 일시적으로 네트워크가 안좋아서 못받았거나 증증
 상황이 있는데 다른 seq는 잘 간 것을 보아 이 하나 때문에 3 duplicate ACK이 발생하여 
 CWND를 1로 줄이는 것은 또한 낭비가 될 수 있다.
-  
+![image](https://github.com/yybmion/network/assets/113106136/a315c6ee-0335-44f1-ad0a-1917ffe9e1b2)
+
 그래서 Fast Recovery를 사용
 
 이는 timeout이 아닌 3 duplicate ACK에서 사용한다.
