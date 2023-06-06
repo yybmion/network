@@ -63,7 +63,7 @@ destination address를 확인할 필요없이 빠르게 forwarding  하기 위�
 ___
 
 vc forwarding TABLE
-
+> https://velog.io/@jurlring/Chapter-4-Network-Layer-2-Virtual-circuit-and-datagram-networks 
 ![image](https://github.com/yybmion/network/assets/113106136/c36ac849-88a0-4158-b3c2-9e09ec3b4319)
 
 그냥 VC 는 처음부터 끝까지 TABLE이 채워져있음 그거 보고 따라 가는거임
