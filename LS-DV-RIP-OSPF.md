@@ -147,6 +147,8 @@ EGP = 외부
 하나의 AS내에서는 하나의 IGP 라우팅 프로토콜이 사용된다.
 ![image](https://github.com/yybmion/network/assets/113106136/41426eb4-1e38-4627-9dd0-9b943b15cdde)
 
+![image](https://github.com/yybmion/network/assets/113106136/47db5b4e-9adf-4715-acf5-3a96f8dc44dd)
+
 그러면 어째서 EGP는 프로토콜이 BGP하나인가 하면 AS들간에 하는 것은 만약 선택지들 중 여러가지를 놓게 되면
 여기는 A인데 저기는 B를 쓴다고 하면 서로의 라우팅을 교환하는데 일치성이 깨지기 떄문이다.
 
